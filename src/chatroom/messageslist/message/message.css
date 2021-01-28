@@ -1,0 +1,56 @@
+.date{
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.message-sender-name{
+    
+}
+
+.user-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-details h2{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.message-container p{
+    margin: 0 !important;
+    padding: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.user-details img{
+    position: absolute;
+    border: 2px white solid;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.432);
+    margin-left: -60px;
+    margin-top: -5px;
+}
+
+.message-container{
+    padding: 10px 30px;
+    width: fit-content;
+    max-width: 300px;
+    background: linear-gradient(117deg, rgba(85,0,241,1) 0%, rgba(114,0,208,1) 100%); 
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.main{
+    background : linear-gradient(117deg, rgba(198,188,207,1) 0%, rgba(200,188,224,1) 100%) !important;
+    margin-left: auto !important;
+    color: black !important;
+}
+
+.message-text{
+    color: white;
+    word-break: break-all;
+
+}
